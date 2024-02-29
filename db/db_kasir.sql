@@ -50,7 +50,7 @@ CREATE TABLE `admin` (
 --
 
 INSERT INTO `admin` (`id`, `username`, `password`) VALUES
-(1, 'maulida', '12345'),
+(1, 'meilda', '12345'),
 (2, 'admin', '12345');
 
 -- --------------------------------------------------------
@@ -76,19 +76,7 @@ INSERT INTO `tb_databarang` (`kode_barang`, `nama_barang`, `harga`, `stok`, `tan
 (2, 'penghapus', 2000, 98, '2024-02-15'),
 (3, 'pensil', 2000, 98, '2024-02-15'),
 (4, 'buku', 3000, 100, '2024-02-15'),
-(5, 'stabilo', 2000, 98, '2024-02-15'),
-(6, 'tipe x', 4000, 100, '2024-02-15'),
-(7, 'kertas polio', 200, 500, '2024-02-15'),
-(8, 'kertas asturo', 1000, 200, '2024-02-15'),
-(9, 'buku gambar', 3500, 100, '2024-02-15'),
-(10, 'spidol', 2000, 150, '2024-02-15'),
-(11, 'jangka', 5000, 100, '2024-02-15'),
-(12, 'serutan', 1000, 100, '2024-02-15'),
-(13, 'name tag', 2000, 100, '2024-02-15'),
-(14, 'kertas kado', 2000, 100, '2024-02-15'),
-(15, 'kertas hvs', 200, 980, '2024-02-15'),
-(16, 'klip', 1000, 100, '2024-02-15'),
-(17, 'kertas polio', 1000, 100, '2024-02-15');
+(5, 'stabilo', 2000, 98, '2024-02-15')
 
 -- --------------------------------------------------------
 
@@ -111,9 +99,8 @@ CREATE TABLE `tb_datapetugas` (
 --
 
 INSERT INTO `tb_datapetugas` (`id_petugas`, `nama_petugas`, `email`, `alamat`, `tanggal_pendaftaran`, `username`, `password`) VALUES
-(1, 'fathiya', 'fathiya@gmail.com', 'Kuningan', '2024-02-15', 'petugas', '12345'),
-(2, 'ayu', 'ayu@gmail.com', 'cimara', '2024-02-15', 'petugas1', '12345'),
-(3, 'listiani', 'lstiani@gmail.com', 'kuningan', '2024-02-15', 'yas', '1234');
+(1, 'bila', 'bila@gmail.com', 'Kuningan', '2024-02-15', 'petugas', '12345'),
+(2, 'nita', 'nita@gmail.com', 'cimara', '2024-02-15', 'petugas1', '12345'),
 
 -- --------------------------------------------------------
 
