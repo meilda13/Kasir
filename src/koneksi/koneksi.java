@@ -20,7 +20,7 @@ public class koneksi {
     private static Connection koneksi;  
     public static Connection getKoneksi(){
         try{
-            String url = "jdbc:mysql://localhost:3306/apl_kasir";
+            String url = "jdbc:mysql://localhost:3306/db_kasir";
             String user = "root";
             String password = "";
             
